@@ -1,0 +1,28 @@
+2023-06-23T07:14:27+00:00 CRITICAL Uncaught Error: Call to undefined function get_template_parts() in C:\wamp64\www\delta-theme-wp23\wp-content\themes\deltatheme\single.php:16
+Stack trace:
+#0 C:\wamp64\www\delta-theme-wp23\wp-includes\template-loader.php(106): include()
+#1 C:\wamp64\www\delta-theme-wp23\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\d...')
+#2 C:\wamp64\www\delta-theme-wp23\index.php(17): require('C:\\wamp64\\www\\d...')
+#3 {main}
+  thrown dans C:\wamp64\www\delta-theme-wp23\wp-content\themes\deltatheme\single.php à la ligne 16
+
+2023-06-23T07:17:03+00:00 CRITICAL Cannot redeclare mytheme_add_woocommerce_support() (previously declared in C:\wamp64\www\delta-theme-wp23\wp-content\plugins\sf-sav\sf-sav.php:48) dans C:\wamp64\www\delta-theme-wp23\wp-content\themes\deltatheme\functions.php à la ligne 1212
+
+2023-06-23T07:17:22+00:00 CRITICAL Cannot redeclare mytheme_add_woocommerce_support() (previously declared in C:\wamp64\www\delta-theme-wp23\wp-content\plugins\sf-sav\sf-sav.php:48) dans C:\wamp64\www\delta-theme-wp23\wp-content\themes\deltatheme\functions.php à la ligne 1212
+
+2023-06-23T07:17:54+00:00 CRITICAL Cannot redeclare mytheme_add_woocommerce_support() (previously declared in C:\wamp64\www\delta-theme-wp23\wp-content\plugins\sf-sav\sf-sav.php:48) dans C:\wamp64\www\delta-theme-wp23\wp-content\themes\deltatheme\functions.php à la ligne 1212
+
+2023-06-23T07:17:55+00:00 CRITICAL Cannot redeclare mytheme_add_woocommerce_support() (previously declared in C:\wamp64\www\delta-theme-wp23\wp-content\plugins\sf-sav\sf-sav.php:48) dans C:\wamp64\www\delta-theme-wp23\wp-content\themes\deltatheme\functions.php à la ligne 1212
+
+2023-06-23T07:19:00+00:00 CRITICAL Cannot redeclare mytheme_add_woocommerce_support() (previously declared in C:\wamp64\www\delta-theme-wp23\wp-content\plugins\sf-sav\sf-sav.php:48) dans C:\wamp64\www\delta-theme-wp23\wp-content\themes\deltatheme\functions.php à la ligne 1212
+
+2023-06-23T07:19:01+00:00 CRITICAL Cannot redeclare mytheme_add_woocommerce_support() (previously declared in C:\wamp64\www\delta-theme-wp23\wp-content\plugins\sf-sav\sf-sav.php:48) dans C:\wamp64\www\delta-theme-wp23\wp-content\themes\deltatheme\functions.php à la ligne 1212
+
+2023-06-23T07:19:03+00:00 CRITICAL Cannot redeclare mytheme_add_woocommerce_support() (previously declared in C:\wamp64\www\delta-theme-wp23\wp-content\plugins\sf-sav\sf-sav.php:48) dans C:\wamp64\www\delta-theme-wp23\wp-content\themes\deltatheme\functions.php à la ligne 1212
+
+2023-06-23T07:19:05+00:00 CRITICAL Cannot redeclare mytheme_add_woocommerce_support() (previously declared in C:\wamp64\www\delta-theme-wp23\wp-content\plugins\sf-sav\sf-sav.php:48) dans C:\wamp64\www\delta-theme-wp23\wp-content\themes\deltatheme\functions.php à la ligne 1212
+
+2023-06-23T07:19:07+00:00 CRITICAL Cannot redeclare mytheme_add_woocommerce_support() (previously declared in C:\wamp64\www\delta-theme-wp23\wp-content\plugins\sf-sav\sf-sav.php:48) dans C:\wamp64\www\delta-theme-wp23\wp-content\themes\deltatheme\functions.php à la ligne 1212
+
+2023-06-23T07:19:07+00:00 CRITICAL Cannot redeclare mytheme_add_woocommerce_support() (previously declared in C:\wamp64\www\delta-theme-wp23\wp-content\plugins\sf-sav\sf-sav.php:48) dans C:\wamp64\www\delta-theme-wp23\wp-content\themes\deltatheme\functions.php à la ligne 1212
+

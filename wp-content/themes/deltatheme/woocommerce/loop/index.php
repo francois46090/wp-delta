@@ -1,0 +1,1 @@
+<?php // Silence is golden : Le silence est d'or ?>

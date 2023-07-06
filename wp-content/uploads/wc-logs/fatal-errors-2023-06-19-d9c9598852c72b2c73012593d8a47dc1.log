@@ -1,0 +1,10 @@
+2023-06-19T09:17:09+00:00 CRITICAL syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' dans C:\wamp64\www\delta-theme-wp23\wp-content\themes\deltatheme\functions.php à la ligne 563
+
+2023-06-19T09:18:38+00:00 CRITICAL syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' dans C:\wamp64\www\delta-theme-wp23\wp-content\themes\deltatheme\functions.php à la ligne 563
+
+2023-06-19T09:18:42+00:00 CRITICAL syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' dans C:\wamp64\www\delta-theme-wp23\wp-content\themes\deltatheme\functions.php à la ligne 563
+
+2023-06-19T09:19:03+00:00 CRITICAL syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' dans C:\wamp64\www\delta-theme-wp23\wp-content\themes\deltatheme\functions.php à la ligne 768
+
+2023-06-19T09:20:27+00:00 CRITICAL syntax error, unexpected ';', expecting ')' dans C:\wamp64\www\delta-theme-wp23\wp-content\themes\deltatheme\functions.php à la ligne 1121
+

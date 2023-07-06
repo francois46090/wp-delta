@@ -1,0 +1,10 @@
+2023-06-08T12:44:28+00:00 CRITICAL syntax error, unexpected '?', expecting end of file dans C:\wamp64\www\delta-theme-wp23\wp-content\themes\hotheme-child\functions.php à la ligne 11
+
+2023-06-08T12:44:29+00:00 CRITICAL syntax error, unexpected '?', expecting end of file dans C:\wamp64\www\delta-theme-wp23\wp-content\themes\hotheme-child\functions.php à la ligne 11
+
+2023-06-08T12:44:31+00:00 CRITICAL syntax error, unexpected '?', expecting end of file dans C:\wamp64\www\delta-theme-wp23\wp-content\themes\hotheme-child\functions.php à la ligne 11
+
+2023-06-08T12:44:44+00:00 CRITICAL syntax error, unexpected '?', expecting end of file dans C:\wamp64\www\delta-theme-wp23\wp-content\themes\hotheme-child\functions.php à la ligne 11
+
+2023-06-08T12:51:41+00:00 CRITICAL Cannot redeclare theme_enqueue_styles() (previously declared in C:\wamp64\www\delta-theme-wp23\wp-content\themes\hotheme-child\functions.php:5) dans C:\wamp64\www\delta-theme-wp23\wp-content\themes\hotheme\functions.php à la ligne 6
+

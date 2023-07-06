@@ -1,0 +1,73 @@
+2023-06-22T09:50:14+00:00 CRITICAL Cannot redeclare add_style_plugin() (previously declared in C:\wamp64\www\delta-theme-wp23\wp-content\plugins\sf-titre\sf-titre.php:16) dans C:\wamp64\www\delta-theme-wp23\wp-content\plugins\sf-titre-old\sf-titre.php à la ligne 19
+
+2023-06-22T09:50:15+00:00 CRITICAL Cannot redeclare add_style_plugin() (previously declared in C:\wamp64\www\delta-theme-wp23\wp-content\plugins\sf-titre\sf-titre.php:16) dans C:\wamp64\www\delta-theme-wp23\wp-content\plugins\sf-titre-old\sf-titre.php à la ligne 19
+
+2023-06-22T09:50:15+00:00 CRITICAL Cannot redeclare add_style_plugin() (previously declared in C:\wamp64\www\delta-theme-wp23\wp-content\plugins\sf-titre\sf-titre.php:16) dans C:\wamp64\www\delta-theme-wp23\wp-content\plugins\sf-titre-old\sf-titre.php à la ligne 19
+
+2023-06-22T11:34:05+00:00 CRITICAL Uncaught Error: Class 'mon_widget' not found in C:\wamp64\www\delta-theme-wp23\wp-includes\class-wp-widget-factory.php:62
+Stack trace:
+#0 C:\wamp64\www\delta-theme-wp23\wp-includes\widgets.php(115): WP_Widget_Factory->register('mon_widget')
+#1 C:\wamp64\www\delta-theme-wp23\wp-content\themes\deltatheme\functions.php(1198): register_widget('mon_widget')
+#2 C:\wamp64\www\delta-theme-wp23\wp-includes\class-wp-hook.php(308): mon_register_widget('')
+#3 C:\wamp64\www\delta-theme-wp23\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#4 C:\wamp64\www\delta-theme-wp23\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\wamp64\www\delta-theme-wp23\wp-includes\widgets.php(1854): do_action('widgets_init')
+#6 C:\wamp64\www\delta-theme-wp23\wp-includes\class-wp-hook.php(308): wp_widgets_init('')
+#7 C:\wamp64\www\delta-theme-wp23\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\wamp64\www\delta-theme-wp23\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C dans C:\wamp64\www\delta-theme-wp23\wp-includes\class-wp-widget-factory.php à la ligne 62
+
+2023-06-22T11:36:06+00:00 CRITICAL Uncaught Error: Class 'mon_widget' not found in C:\wamp64\www\delta-theme-wp23\wp-includes\class-wp-widget-factory.php:62
+Stack trace:
+#0 C:\wamp64\www\delta-theme-wp23\wp-includes\widgets.php(115): WP_Widget_Factory->register('mon_widget')
+#1 C:\wamp64\www\delta-theme-wp23\wp-content\themes\deltatheme\functions.php(1198): register_widget('mon_widget')
+#2 C:\wamp64\www\delta-theme-wp23\wp-includes\class-wp-hook.php(308): mon_register_widget('')
+#3 C:\wamp64\www\delta-theme-wp23\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#4 C:\wamp64\www\delta-theme-wp23\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\wamp64\www\delta-theme-wp23\wp-includes\widgets.php(1854): do_action('widgets_init')
+#6 C:\wamp64\www\delta-theme-wp23\wp-includes\class-wp-hook.php(308): wp_widgets_init('')
+#7 C:\wamp64\www\delta-theme-wp23\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\wamp64\www\delta-theme-wp23\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C dans C:\wamp64\www\delta-theme-wp23\wp-includes\class-wp-widget-factory.php à la ligne 62
+
+2023-06-22T11:38:07+00:00 CRITICAL Uncaught Error: Class 'mon_widget' not found in C:\wamp64\www\delta-theme-wp23\wp-includes\class-wp-widget-factory.php:62
+Stack trace:
+#0 C:\wamp64\www\delta-theme-wp23\wp-includes\widgets.php(115): WP_Widget_Factory->register('mon_widget')
+#1 C:\wamp64\www\delta-theme-wp23\wp-content\themes\deltatheme\functions.php(1198): register_widget('mon_widget')
+#2 C:\wamp64\www\delta-theme-wp23\wp-includes\class-wp-hook.php(308): mon_register_widget('')
+#3 C:\wamp64\www\delta-theme-wp23\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#4 C:\wamp64\www\delta-theme-wp23\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\wamp64\www\delta-theme-wp23\wp-includes\widgets.php(1854): do_action('widgets_init')
+#6 C:\wamp64\www\delta-theme-wp23\wp-includes\class-wp-hook.php(308): wp_widgets_init('')
+#7 C:\wamp64\www\delta-theme-wp23\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\wamp64\www\delta-theme-wp23\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C dans C:\wamp64\www\delta-theme-wp23\wp-includes\class-wp-widget-factory.php à la ligne 62
+
+2023-06-22T11:41:52+00:00 CRITICAL Uncaught Error: Class 'mon_widget' not found in C:\wamp64\www\delta-theme-wp23\wp-includes\class-wp-widget-factory.php:62
+Stack trace:
+#0 C:\wamp64\www\delta-theme-wp23\wp-includes\widgets.php(115): WP_Widget_Factory->register('mon_widget')
+#1 C:\wamp64\www\delta-theme-wp23\wp-content\themes\deltatheme\functions.php(1198): register_widget('mon_widget')
+#2 C:\wamp64\www\delta-theme-wp23\wp-includes\class-wp-hook.php(308): mon_register_widget('')
+#3 C:\wamp64\www\delta-theme-wp23\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#4 C:\wamp64\www\delta-theme-wp23\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\wamp64\www\delta-theme-wp23\wp-includes\widgets.php(1854): do_action('widgets_init')
+#6 C:\wamp64\www\delta-theme-wp23\wp-includes\class-wp-hook.php(308): wp_widgets_init('')
+#7 C:\wamp64\www\delta-theme-wp23\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\wamp64\www\delta-theme-wp23\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C dans C:\wamp64\www\delta-theme-wp23\wp-includes\class-wp-widget-factory.php à la ligne 62
+
+2023-06-22T11:41:53+00:00 CRITICAL Uncaught Error: Class 'mon_widget' not found in C:\wamp64\www\delta-theme-wp23\wp-includes\class-wp-widget-factory.php:62
+Stack trace:
+#0 C:\wamp64\www\delta-theme-wp23\wp-includes\widgets.php(115): WP_Widget_Factory->register('mon_widget')
+#1 C:\wamp64\www\delta-theme-wp23\wp-content\themes\deltatheme\functions.php(1198): register_widget('mon_widget')
+#2 C:\wamp64\www\delta-theme-wp23\wp-includes\class-wp-hook.php(308): mon_register_widget('')
+#3 C:\wamp64\www\delta-theme-wp23\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#4 C:\wamp64\www\delta-theme-wp23\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\wamp64\www\delta-theme-wp23\wp-includes\widgets.php(1854): do_action('widgets_init')
+#6 C:\wamp64\www\delta-theme-wp23\wp-includes\class-wp-hook.php(308): wp_widgets_init('')
+#7 C:\wamp64\www\delta-theme-wp23\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\wamp64\www\delta-theme-wp23\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C dans C:\wamp64\www\delta-theme-wp23\wp-includes\class-wp-widget-factory.php à la ligne 62
+
+2023-06-22T11:56:32+00:00 CRITICAL syntax error, unexpected '');' (T_CONSTANT_ENCAPSED_STRING), expecting ')' dans C:\wamp64\www\delta-theme-wp23\wp-content\themes\deltatheme\functions.php à la ligne 1231
+

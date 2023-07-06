@@ -1,0 +1,78 @@
+2023-06-20T07:28:52+00:00 CRITICAL Uncaught Error: Call to undefined function echoesc_attr() in C:\wamp64\www\delta-theme-wp23\wp-content\themes\deltatheme\functions.php:1028
+Stack trace:
+#0 C:\wamp64\www\delta-theme-wp23\wp-includes\class-wp-hook.php(308): theme_customize_css('')
+#1 C:\wamp64\www\delta-theme-wp23\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\wamp64\www\delta-theme-wp23\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\wamp64\www\delta-theme-wp23\wp-includes\general-template.php(3049): do_action('wp_head')
+#4 C:\wamp64\www\delta-theme-wp23\wp-content\themes\deltatheme\header.php(11): wp_head()
+#5 C:\wamp64\www\delta-theme-wp23\wp-includes\template.php(783): require_once('C:\\wamp64\\www\\d...')
+#6 C:\wamp64\www\delta-theme-wp23\wp-includes\template.php(718): load_template('C:\\wamp64\\www\\d...', true, Array)
+#7 C:\wamp64\www\delta-theme-wp23\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#8 C:\wamp64\www\delta-theme-wp23\wp-content\themes\deltatheme\f dans C:\wamp64\www\delta-theme-wp23\wp-content\themes\deltatheme\functions.php à la ligne 1028
+
+2023-06-20T07:30:55+00:00 CRITICAL Uncaught Error: Call to undefined function echoesc_attr() in C:\wamp64\www\delta-theme-wp23\wp-content\themes\deltatheme\functions.php:1028
+Stack trace:
+#0 C:\wamp64\www\delta-theme-wp23\wp-includes\class-wp-hook.php(308): theme_customize_css('')
+#1 C:\wamp64\www\delta-theme-wp23\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\wamp64\www\delta-theme-wp23\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\wamp64\www\delta-theme-wp23\wp-includes\general-template.php(3049): do_action('wp_head')
+#4 C:\wamp64\www\delta-theme-wp23\wp-content\themes\deltatheme\header.php(11): wp_head()
+#5 C:\wamp64\www\delta-theme-wp23\wp-includes\template.php(783): require_once('C:\\wamp64\\www\\d...')
+#6 C:\wamp64\www\delta-theme-wp23\wp-includes\template.php(718): load_template('C:\\wamp64\\www\\d...', true, Array)
+#7 C:\wamp64\www\delta-theme-wp23\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#8 C:\wamp64\www\delta-theme-wp23\wp-content\themes\deltatheme\f dans C:\wamp64\www\delta-theme-wp23\wp-content\themes\deltatheme\functions.php à la ligne 1028
+
+2023-06-20T07:31:10+00:00 CRITICAL Uncaught Error: Call to undefined function echoesc_attr() in C:\wamp64\www\delta-theme-wp23\wp-content\themes\deltatheme\functions.php:1028
+Stack trace:
+#0 C:\wamp64\www\delta-theme-wp23\wp-includes\class-wp-hook.php(308): theme_customize_css('')
+#1 C:\wamp64\www\delta-theme-wp23\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\wamp64\www\delta-theme-wp23\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\wamp64\www\delta-theme-wp23\wp-includes\general-template.php(3049): do_action('wp_head')
+#4 C:\wamp64\www\delta-theme-wp23\wp-content\themes\deltatheme\header.php(11): wp_head()
+#5 C:\wamp64\www\delta-theme-wp23\wp-includes\template.php(783): require_once('C:\\wamp64\\www\\d...')
+#6 C:\wamp64\www\delta-theme-wp23\wp-includes\template.php(718): load_template('C:\\wamp64\\www\\d...', true, Array)
+#7 C:\wamp64\www\delta-theme-wp23\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#8 C:\wamp64\www\delta-theme-wp23\wp-content\themes\deltatheme\f dans C:\wamp64\www\delta-theme-wp23\wp-content\themes\deltatheme\functions.php à la ligne 1028
+
+2023-06-20T07:31:25+00:00 CRITICAL Uncaught Error: Call to undefined function echoesc_attr() in C:\wamp64\www\delta-theme-wp23\wp-content\themes\deltatheme\functions.php:1028
+Stack trace:
+#0 C:\wamp64\www\delta-theme-wp23\wp-includes\class-wp-hook.php(308): theme_customize_css('')
+#1 C:\wamp64\www\delta-theme-wp23\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\wamp64\www\delta-theme-wp23\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\wamp64\www\delta-theme-wp23\wp-includes\general-template.php(3049): do_action('wp_head')
+#4 C:\wamp64\www\delta-theme-wp23\wp-content\themes\deltatheme\header.php(11): wp_head()
+#5 C:\wamp64\www\delta-theme-wp23\wp-includes\template.php(783): require_once('C:\\wamp64\\www\\d...')
+#6 C:\wamp64\www\delta-theme-wp23\wp-includes\template.php(718): load_template('C:\\wamp64\\www\\d...', true, Array)
+#7 C:\wamp64\www\delta-theme-wp23\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#8 C:\wamp64\www\delta-theme-wp23\wp-content\themes\deltatheme\f dans C:\wamp64\www\delta-theme-wp23\wp-content\themes\deltatheme\functions.php à la ligne 1028
+
+2023-06-20T07:31:35+00:00 CRITICAL Uncaught Error: Call to undefined function echoesc_attr() in C:\wamp64\www\delta-theme-wp23\wp-content\themes\deltatheme\functions.php:1028
+Stack trace:
+#0 C:\wamp64\www\delta-theme-wp23\wp-includes\class-wp-hook.php(308): theme_customize_css('')
+#1 C:\wamp64\www\delta-theme-wp23\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\wamp64\www\delta-theme-wp23\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\wamp64\www\delta-theme-wp23\wp-includes\general-template.php(3049): do_action('wp_head')
+#4 C:\wamp64\www\delta-theme-wp23\wp-content\themes\deltatheme\header.php(11): wp_head()
+#5 C:\wamp64\www\delta-theme-wp23\wp-includes\template.php(783): require_once('C:\\wamp64\\www\\d...')
+#6 C:\wamp64\www\delta-theme-wp23\wp-includes\template.php(718): load_template('C:\\wamp64\\www\\d...', true, Array)
+#7 C:\wamp64\www\delta-theme-wp23\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#8 C:\wamp64\www\delta-theme-wp23\wp-content\themes\deltatheme\f dans C:\wamp64\www\delta-theme-wp23\wp-content\themes\deltatheme\functions.php à la ligne 1028
+
+2023-06-20T07:31:56+00:00 CRITICAL Uncaught Error: Call to undefined function echoesc_attr() in C:\wamp64\www\delta-theme-wp23\wp-content\themes\deltatheme\functions.php:1028
+Stack trace:
+#0 C:\wamp64\www\delta-theme-wp23\wp-includes\class-wp-hook.php(308): theme_customize_css('')
+#1 C:\wamp64\www\delta-theme-wp23\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\wamp64\www\delta-theme-wp23\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\wamp64\www\delta-theme-wp23\wp-includes\general-template.php(3049): do_action('wp_head')
+#4 C:\wamp64\www\delta-theme-wp23\wp-content\themes\deltatheme\header.php(11): wp_head()
+#5 C:\wamp64\www\delta-theme-wp23\wp-includes\template.php(783): require_once('C:\\wamp64\\www\\d...')
+#6 C:\wamp64\www\delta-theme-wp23\wp-includes\template.php(718): load_template('C:\\wamp64\\www\\d...', true, Array)
+#7 C:\wamp64\www\delta-theme-wp23\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#8 C:\wamp64\www\delta-theme-wp23\wp-content\themes\deltatheme\f dans C:\wamp64\www\delta-theme-wp23\wp-content\themes\deltatheme\functions.php à la ligne 1028
+
+2023-06-20T09:28:11+00:00 CRITICAL syntax error, unexpected end of file dans C:\wamp64\www\delta-theme-wp23\wp-content\themes\deltatheme\single.php à la ligne 55
+
+2023-06-20T09:29:25+00:00 CRITICAL syntax error, unexpected end of file dans C:\wamp64\www\delta-theme-wp23\wp-content\themes\deltatheme\single.php à la ligne 61
+
+2023-06-20T09:55:45+00:00 CRITICAL syntax error, unexpected 'function' (T_FUNCTION) dans C:\wamp64\www\delta-theme-wp23\wp-content\themes\deltatheme\functions.php à la ligne 114
+

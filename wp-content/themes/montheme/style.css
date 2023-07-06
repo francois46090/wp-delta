@@ -1,0 +1,1008 @@
+
+/* 
+Theme Name: Mon theme 
+Theme URI::
+Description: Mon theme pour Wordpress
+Version: 1.0
+Author: Cyrielle Guiraud
+Tags: Html5, Css3, Php, Bootstrap
+Licence: GNU
+Licence URI:
+Text Domain: montheme
+*/
+
+
+/* STYLES GENERAUX */
+
+body{
+    width:100%;
+    background-color: #becdc5;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#contenu-principal{
+    width: 80%;
+    margin: auto;
+    padding: 0 0 10em 0; 
+    background-color: #fff;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    position: relative;
+    z-index: 2;
+}
+
+.navbar{ /* Entête */
+    background-color: #939f98;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+/* Logo */
+.logo{
+    margin-bottom: -2%;
+}
+.logo-shadow img{
+    box-shadow: 0 2px 5px rgba(104,114,108,1);
+}
+.logo img{
+    width:  100%;
+    height: auto
+}
+.logo a{
+    width: max-content;
+}
+
+/* Menu principal */
+
+/* Menu hamburger */
+.navbar-toggler{
+    border: none;
+    width: 1%;
+    height: 1%;
+ /* position: fixed;
+    top: 0; 
+    right: 0;
+    margin: 2% 15% 0 0;*/
+}
+/* Menu hamburger au clic */
+.navbar-toggler:focus{
+    outline: none;
+    box-shadow: none;
+
+}
+/*
+#menu-content{
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 5% 5% 0 0;
+}*/
+
+/* Liens du menu principal */
+.navbar-nav li a{
+    margin-bottom: 0.5%;
+    color: #707070;
+    font-family: 'Manjari', sans-serif; 
+    font-size: 0.9em;
+    font-weight: bold;
+    text-decoration: none;
+}
+.navbar-nav li{
+list-style: none;
+}
+.navbar-nav ol, ul {
+    padding-left: 1em;
+}
+/* Hover liens du menu */
+.navbar-nav li a:hover{
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Lien de la page active */
+.navbar-nav li.current-menu-item a{
+    color:#becdc5;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+.navbar-nav li.current-menu-item a:hover{
+    color: #becdc5;
+    font-weight: lighter;
+    cursor: default;
+}
+
+
+/* Téléphone */
+#tel{
+    color:#fff;
+    height: 2em;
+    width: 15em;
+ /*   position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 9999;
+    margin: 0.5em 1em 0 0;*/
+}
+  
+#tel p{
+    margin: 0;
+    padding: 0 0 0 0.5em;
+    font-weight: 400;
+    font-size: medium;
+}
+#tel i{
+    margin: 0;
+    padding: 0.8em 0 0 0;
+}
+
+
+/* Bandeau image */
+.bandeau{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 999;
+
+}
+
+.bandeau img{
+    max-width: 100%;
+    display: block;
+}
+
+/* Lien vers le haut de la page */
+#scroll-top {
+    position: fixed;
+    bottom: 5em;
+    right: 10em;
+    z-index: 997; 
+    text-decoration: none;
+}
+.cercle{
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    background-color: #68726c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}  
+  .triangle{
+    width: 0;
+    height: 0;
+    border-left: 0.8em solid transparent;
+    border-right: 0.8em solid transparent;
+    border-bottom: 0.8em solid #fff;
+}
+  
+
+/* Contenu page */
+
+
+h1,h2{
+    text-align: center;
+    box-shadow: 0px 3px 4px rgba(104,114,108,0.6);
+    width: 100%;
+    padding-bottom: 0.5em;
+}
+
+h1{
+    margin-bottom: 1.2em ;
+}
+
+h2{
+    margin: 2em 0 1.2em 0;
+}
+
+h3{
+    color: #939f98;
+    font-weight: bold;
+}
+
+p{
+    text-align: justify;
+    padding: 0 6em;
+    font-size: 1.3em;
+}
+
+/* Boutons contacter et en savoir plus */
+.wp-element-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wp-block-button__link{
+    border-radius:  0.6em 0.6em 0.6em 0.6em;
+    background-color: #becdc5;    
+    height: 2.5em;
+    padding: 0.8em;
+}    
+/* Hover Boutons contacter et en savoir plus */
+.wp-block-button__link:hover{
+    background-color: #939f98;    
+}   
+
+/* Image hypnothérapeute */
+.alignright{
+    width:30%;
+    height: auto;
+
+}
+.wp-image-98{
+    border-radius: 1em 1em 1em 1em;
+}
+
+/* paragraphe déroulement séance */
+.wp-block-column p{
+    padding: 0 6em 0 0;
+}
+.icon-seance{
+    width: 80%;
+    height: auto;
+    margin-left: 25%;
+}
+.bloc-seance {
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+/* Blocs consulter */
+.consulter:hover{
+filter: brightness(90%);
+}
+
+
+/* Articles consulter */
+.container-consulter-titres{
+    height: 5em;
+    background-color: #939f98;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.consulter-titres{
+    box-shadow: none;
+    width: 100%;
+    color:#fff;
+    font-size: 1,2em;
+    align-items: center;
+}
+.container-consulter-titres h2{
+    margin: 0;
+    padding: 0;
+}
+.consulter-icons{
+    background-color: #939f98;
+}
+
+
+
+/* Formulaire de contact */
+#contact-form button{
+    background-color: #becdc5;
+    border-color: #becdc5;
+}
+#contact-form button:hover{
+    background-color: #939f98;
+    border-color: #939f98;
+}
+.form-control{
+    border-color: #becdc5;
+}
+.form-control:focus{
+    border-color: #becdc5;
+    box-shadow: 0 0 0 0.25em rgba(104,114,108,0.15);
+}
+
+/* Ligne de fin */
+hr{
+    width: 70%;
+    margin: 5em auto 3em auto;
+    border-color: #939f98;
+}
+.fin{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1em;
+}
+.fin a{
+    text-align: center;
+    text-decoration: none;
+    color: #707070;
+    font-size: 1.2em;
+}
+/* Hover Liens ligne de fin */
+.fin a:hover{
+   color: #292928;
+}
+
+
+
+/* Footer */
+
+footer{
+    background-color: #939f98;
+    color: #fff;
+    position: relative;
+    z-index: 998;
+}
+
+.footer-logo img{
+    max-width: 60%;
+    height: auto;
+    margin-top:-2em;
+    transform: rotate(-3deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+
+.footer-logo.logo-shadow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+/* Menu secondaire */
+.footer-menu{
+    padding-bottom: 0.1em;
+}
+#menu-menu-du-pied-de-page{
+    text-align: center;
+    list-style: none;
+}
+#menu-item-62 a{
+    font-family: 'Zen Maru Gothic', sans-serif;
+    color:#fff;
+    font-weight: medium;
+    text-decoration: none;
+}
+/* Hover lien du menu secondaire */
+#menu-item-62 a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Facebook */
+footer i{
+    color: #fff;
+}
+footer i:hover{
+    color: #becdc5;
+}
+
+/* Bouton contacter */
+.footer-contact a{
+    color: #939f98;
+    font-size: 1em;
+    font-weight: medium;
+    text-decoration: none;
+}
+.footer-contact{
+    border-radius: 0.6em 0.6em 0.6em 0.6em ;
+    background-color: #fff;
+    border:none;
+    width: 6em;
+    height: 2em;
+}
+/* Hover Bouton contacter */
+.footer-contact a:hover{
+    color: #fff;
+}
+.footer-contact:hover{
+    background-color: #becdc5;
+}
+
+/* BLOG - index */
+.blog-post{
+    background-color: rgba(190,205,197,0.30);
+    max-width: 70%;
+    height: 45em;
+    margin: auto;
+    position: relative;
+}
+
+/* Image de l'article */
+.blog-post img{
+    width: 100%;
+    height: auto;
+    object-fit: cover; /*redimensionne automatiquement les images et les ajuste */
+}
+
+/* Trait entre image et titre de l'article */
+.blog-post::before {
+    content: "";
+    position: absolute;
+    bottom: 65%;
+    left: 0;
+    width: 100%;
+    height: 0.8em;
+    background-color: #68726c;
+}
+
+/* Icône */
+.post-divider {
+    display: flex;
+    justify-content: center;
+}  
+.post-divider i {
+    display: inline-block;
+    margin-top: -50%;
+}
+
+/* Titre de l'article */
+.post-title{
+    box-shadow: none;
+    color: #939f98;
+    font-size: 1.5em;
+    font-weight: 500;
+    margin: 0;
+}
+/* Nbr Commentaires */
+.post-meta{
+    display: flex;
+    justify-content: end;
+    margin-right: 5em;
+}
+.post-meta i{
+    padding-right: 0.5em;
+}
+
+/* Extrait de l'article */
+.blog-post p{
+    font-size: 0.9em;
+    padding: 1.3em;
+}
+
+/* Lire la suite */
+.read-more{
+    margin-left: 7.5em;
+    text-decoration: none;
+    color: #707070;
+    font-size: 1em;
+}
+/* Hover Liens ligne de fin */
+.read-more:hover{
+   color: #292928;
+}
+
+
+
+/* COMMENTAIRES */
+
+/* Liste Commentaires */
+
+/* Titre Nbr Commentaires */
+#comment-count{
+    margin: 3em 0 2em 8em;
+    color: #939f98
+}
+
+.comment-body{
+    width: 80%;
+    margin: auto;
+}
+/* Li d'un commentaire */
+.liste-comment li{
+    list-style-type: none;
+    counter-reset: none;
+    margin-bottom: 2em;
+}
+/* Date et heure du commentaire*/
+.comment-meta a{
+    text-decoration: none;
+    color:#939f98;
+}
+
+/* Avatar de l'auteur */
+
+
+/* Nom de l'auteur*/
+.fn{
+    color: #939f98;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 1.2em;
+}
+/* dit */
+.says{
+    color: #939f98;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+/* Contenu du commentaire */
+.comment-body p{
+    font-size: 1em;
+    margin: 0;
+}
+
+/* Répondre */
+.reply a{
+    text-decoration: none;
+    color: #707070;
+    font-size: 1em;
+}
+/* Hover Lien répondre */
+.reply a:hover{
+    text-decoration: underline;
+    color: #292928;
+}
+
+
+
+
+/* FORMULAIRE de commentaire */
+
+/* Titre - Laisser un commenataire */
+.titre-comment{
+    margin: 2em 0 1em 14em;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+/* Label */
+#commentform .form-label{
+    margin-left: 19em;
+}
+
+/* Input */
+#commentform .form-control{
+    border-color: #becdc5;
+    width: 25em;
+    margin-bottom: 1em;
+}
+#commentform .form-control:focus{
+    border-color: #becdc5;
+    box-shadow: 0 0 0 0.25em rgba(104,114,108,0.15);
+}
+
+/* Bouton commenter */
+#commentform .form-submit button{
+    background-color: #939f98;
+    border-color: #939f98;
+    margin-right: 21em;
+}
+#commentform .form-submit button:hover{
+    background-color: #becdc5;
+    border-color: #becdc5;
+}
+
+
+
+/* RESPONSIVITE */
+
+/* MEDIAS QUERIES pour les écrans de petite taille - max:480px */
+@media screen and (max-width: 480px) {
+
+
+body{
+    max-width: 480px;
+    background-color: #fff;
+}
+
+#contenu-principal{
+    width: 100%;
+    margin-top: 7.3em;
+}
+
+/* Header */
+.navbar{
+    max-width: 480px;
+    height: auto;
+}
+.logo img{
+    width: 60%;
+}
+
+
+/* Menu hamburger */
+.navbar-toggler{
+    border: none;
+    width: 1%;
+    height: 1%;
+    position: fixed;
+    top: 2.5em; 
+    right: 3em;
+}
+#menu-content{
+    margin-top:5em
+}
+.navbar-nav li a{
+    text-align:end;
+}
+
+/* Téléphone */
+#tel{
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    z-index: 9999;
+   }
+
+
+
+/* Bandeau Image*/
+.bandeau img{
+    display: none;
+}
+
+/* Lien vers le haut de la page */
+#scroll-top {
+    position: fixed;
+    bottom: 6em;
+    right: 2em;
+    z-index: 997; 
+    text-decoration: none;
+}
+
+/* Textes */
+p{
+    padding: 0 2em;
+    font-size: 1.3em;
+}
+
+/* Image hypnothérapeute */
+.wp-image-261{
+    display: none;
+}
+
+/* Déroulement séance */
+.text-seance{
+    width:80% ;
+}
+.text-seance p{
+    font-size: 1em;
+    text-align: justify;
+    padding: 0 3em 0 0;
+}
+
+/* CONSULTER */
+
+.consulter img{
+    width: 50%;
+    height: auto;
+    margin-left: 7em;
+}
+
+/*  BLOG */
+/* Trait entre image et titre de l'article */
+.blog-post::before {
+    position: absolute;
+    bottom: 33em;
+    left: 0;
+
+}
+
+
+footer{
+    max-width: 480px;
+    height: auto;
+}
+.footer-logo img{
+    width: 40%;
+    height: auto;
+    margin: -1em 0 0 6.5em;
+}
+
+
+#menu-menu-du-pied-de-page{
+    margin: 0;
+    padding: 1em 0 1em 0;
+}
+
+}
+
+/* Media query pour les écrans de 481px à 599px */
+@media screen and (min-width: 481px) and (max-width: 599px) {
+body{
+    min-width: 481px;
+    max-width: 599px;
+    background-color: #fff;
+}
+
+#contenu-principal{
+    width: 100%;
+    margin-top: 7.3em;
+}
+
+/* Header */
+.navbar{
+    min-width: 481px;
+    max-width: 599px;
+    height: auto;
+}
+.logo img{
+    width: 60%;
+}
+
+/* Menu hamburger */
+.navbar-toggler{
+    border: none;
+    width: 1%;
+    height: 1%;
+    position: fixed;
+    top: 2.5em; 
+    right: 3em;
+}
+#menu-content{
+    margin-top:5em
+}
+.navbar-nav li a{
+    text-align:end;
+}
+
+/* Téléphone */
+#tel{
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    z-index: 9999; 
+}
+
+/* Bandeau Image*/
+.bandeau img{
+    display: none;
+}
+
+/* Lien vers le haut de la page */
+#scroll-top {
+    position: fixed;
+    bottom: 6em;
+    right: 2em;
+    z-index: 997; 
+    text-decoration: none;
+}
+
+/* Textes */
+p{
+    padding: 0 2em;
+    font-size: 1.3em;
+}
+
+/* Image hypnothérapeute */
+.wp-image-261{
+    display: none;
+}
+
+/* Déroulement séance */
+.text-seance{
+    width:80% ;
+}
+.text-seance p{
+    font-size: 1em;
+    text-align: justify;
+    padding: 0 3em 0 0;
+}
+
+/* CONSULTER */
+
+.consulter img{
+    width: 50%;
+    height: auto;
+    margin-left: 7em;
+}
+
+/*  BLOG */
+/* Trait entre image et titre de l'article */
+.blog-post::before {
+    position: absolute;
+    bottom: 33em;
+    left: 0;
+}
+
+footer{
+    max-width: 480px;
+    height: auto;
+}
+.footer-logo img{
+    width: 40%;
+    height: auto;
+    margin: -1em 0 0 6.5em;
+}
+#menu-menu-du-pied-de-page{
+    margin: 0;
+    padding: 1em 0 1em 0;
+}
+}
+  
+
+  /* Media query pour les écrans de 600px à 767px */
+  @media screen and (min-width: 600px) and (max-width: 767px) {
+body{
+    min-width: 600px;
+    max-width: 767px;
+    background-color: #fff;
+}
+#contenu-principal{
+    width: 100%;
+    margin-top: 7.3em;
+}
+
+/* Header */
+.navbar{
+    min-width: 600px;
+    max-width: 767px;
+    height: auto;
+}
+.logo img{
+    width: 60%;
+}
+
+/* Menu hamburger */
+.navbar-toggler{
+    border: none;
+    width: 1%;
+    height: 1%;
+    position: fixed;
+    top: 2.5em; 
+    right: 3em;
+}
+#menu-content{
+    margin-top:5em
+}
+.navbar-nav li a{
+    text-align:end;
+}
+
+/* Téléphone */
+#tel{
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    z-index: 9999; 
+}
+
+/* Bandeau Image*/
+.bandeau img{
+    display: none;
+}
+
+/* Lien vers le haut de la page */
+#scroll-top {
+    position: fixed;
+    bottom: 6em;
+    right: 2em;
+    z-index: 997; 
+    text-decoration: none;
+}
+
+/* Textes */
+p{
+    padding: 0 2em;
+    font-size: 1.3em;
+}
+
+/* Image hypnothérapeute */
+.wp-image-261{
+    display: none;
+}
+
+/* Déroulement séance */
+.text-seance{
+    width:80% ;
+}
+.text-seance p{
+    font-size: 1em;
+    text-align: justify;
+    padding: 0 3em 0 0;
+}
+
+/* CONSULTER */
+
+.consulter img{
+    width: 50%;
+    height: auto;
+    margin-left: 7em;
+}
+
+/*  BLOG */
+/* Trait entre image et titre de l'article */
+.blog-post::before {
+    position: absolute;
+    bottom: 33em;
+    left: 0;
+}
+
+footer{
+    max-width: 480px;
+    height: auto;
+}
+.footer-logo img{
+    width: 40%;
+    height: auto;
+    margin: -1em 0 0 6.5em;
+}
+#menu-menu-du-pied-de-page{
+    margin: 0;
+    padding: 1em 0 1em 0;
+}
+}
+
+
+
+/* Media query pour les écrans de 768px à 991px */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+body{
+    min-width: 768px;
+    max-width: 991px; 
+}
+    
+/* Bandeau image */
+.bandeau img{
+    margin-top: 19%;
+}
+    
+/* CONSULTER */
+    
+.consulter img{
+    width: 50%;
+    height: auto;
+    margin-left: 8em;
+}
+    
+/* FOOTER*/
+.footer-logo img{
+    margin: -1em 0 0 7em;
+}
+
+
+}
+  
+
+  /* Media query pour les écrans de 992px à 1024px */
+  @media screen and (min-width: 992px) and (max-width: 1024px) {
+body{
+    min-width: 992px;
+    max-width: 1024px; 
+}
+/* Bandeau image */
+.bandeau img{
+    margin-top: 19%;
+}
+    
+/* CONSULTER */
+    
+.consulter img{
+    width: 50%;
+    height: auto;
+    margin-left: 8em;
+}
+    
+/* FOOTER*/
+.footer-logo img{
+    margin: -1em 0 0 7em;
+}
+  }
+  
+  /* Media query pour les écrans de 1025px et plus */
+  @media screen and (min-width: 1025px) {
+body{
+    min-width: 1025px;
+}
+/* Bandeau image */
+.bandeau img{
+    margin-top: 19%;
+}
+    
+/* CONSULTER */
+    
+.consulter img{
+    width: 50%;
+    height: auto;
+    margin-left: 8em;
+}
+    
+/* FOOTER*/
+.footer-logo img{
+    margin: -1em 0 0 7em;
+}
+
+}
+
